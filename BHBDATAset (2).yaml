@@ -1,0 +1,15 @@
+
+path: BHBdataNEW # dataset root dir
+train: train/images # train images (relative to 'path') 118287 images
+val: val/images # val images (relative to 'path') 5000 images
+test: testtest/images
+
+ 
+# Classes
+names:
+  0: large particle
+  1: glue speck
+  2: oil stain
+  3: imperfect sanding
+  4: crack
+ 
