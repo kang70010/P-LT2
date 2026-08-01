@@ -1,6 +1,7 @@
 from ultralytics import YOLO
 import numpy as np
 
+yolo = YOLO("yolov8-plt.yaml")
 
 yolo.train(
     data='BHBDATAset.yaml',
